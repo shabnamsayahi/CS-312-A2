@@ -1,7 +1,6 @@
 package com.company;
 
-public class Main {
-    /*
+/*
  * CS312 Assignment 2.
  * On my honor, <Shabnam Sayahi>, this programming assignment is my own work.
  *
@@ -14,6 +13,7 @@ public class Main {
  *  Grader name: Omer Mahtey
  *  Number of slip days used on this assignment: 0
  */
+public class Tower {
 
     //a program to print an ASCII art representation of the UT Tower.
     public static void main(String[] args) {
@@ -58,12 +58,11 @@ public class Main {
             //int QUOTES_TOTAOL = SIZE * 5 - 3 * (SIZE / 2);
             for (int quotes = 1; quotes <= QUOTES_TOTAOL; quotes++) {
                 System.out.print("\"'");
-              }
-                QUOTES_TOTAOL = QUOTES_TOTAOL + 3;
-                System.out.println("\"\\");
+            }
+            QUOTES_TOTAOL = QUOTES_TOTAOL + 3;
+            System.out.println("\"\\");
         }
     }
-
 
 
     // Prints the second part of the bottom part of the tower (last part).
